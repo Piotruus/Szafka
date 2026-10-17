@@ -12,3 +12,4 @@ jobs:
           distribution: temurin
           java-version: '21'
       - name: Build
+        run: mvn -B package
