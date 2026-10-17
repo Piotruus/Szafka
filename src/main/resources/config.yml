@@ -1,0 +1,83 @@
+settings:
+  currency-name: "Monety"
+  starting-coins: 0
+  pet-height: 1.85
+  pet-distance: 0.85
+  pet-follow-period-ticks: 2
+  effect-refresh-ticks: 40
+
+costumes:
+  lotnik:
+    name: "&b&lKOSTIUM LOTNIKA"
+    material: PLAYER_HEAD
+    hdb-id: "109812"
+    custom-model-data: 0
+    price: 1800
+    duration-days: 7
+    description:
+      - "&8✦ &7Władca przestworzy SkyPvP."
+      - "&7Gogle na oczy, odwaga na pokład."
+      - "&e✦ Bonus: Szybkość I"
+    effects: ["SPEED:0"]
+  feniks:
+    name: "&6&lKOSTIUM FENIKSA"
+    material: PLAYER_HEAD
+    hdb-id: "115602"
+    custom-model-data: 0
+    price: 3200
+    duration-days: 14
+    description:
+      - "&8✦ &7Odrodzony, by przejąć arenę."
+      - "&7Płomienny styl dla legend SkyPvP."
+      - "&e✦ Bonus: Odporność na ogień I"
+    effects: ["FIRE_RESISTANCE:0"]
+  nocny_sokol:
+    name: "&5&lKOSTIUM NOCNEGO SOKOŁA"
+    material: PLAYER_HEAD
+    hdb-id: "6742"
+    custom-model-data: 0
+    price: 4500
+    duration-days: 30
+    description:
+      - "&8✦ &7Cichy cień nad wyspami."
+      - "&7Pojawiasz się, zanim wróg Cię zauważy."
+      - "&e✦ Bonus: Skok I"
+    effects: ["JUMP_BOOST:0"]
+
+pets:
+  lisek:
+    name: "&6&lPET: LIS POLARNY"
+    material: PLAYER_HEAD
+    hdb-id: "1751"
+    custom-model-data: 0
+    price: 900
+    duration-days: 7
+    description:
+      - "&8✦ &7Sprytny zwiadowca Twojej ekipy."
+      - "&7Mały kompan, wielka lojalność."
+      - "&e✦ Bonus: Szybkość I"
+    effects: ["SPEED:0"]
+  feniksik:
+    name: "&c&lPET: MAŁY FENIKS"
+    material: PLAYER_HEAD
+    hdb-id: "1671"
+    custom-model-data: 0
+    price: 1600
+    duration-days: 14
+    description:
+      - "&8✦ &7Iskra, która nigdy nie gaśnie."
+      - "&7Rozświetla drogę przez niebo."
+      - "&e✦ Bonus: Odporność na ogień I"
+    effects: ["FIRE_RESISTANCE:0"]
+  nietoperz:
+    name: "&5&lPET: NIETOPERZ CIENIA"
+    material: PLAYER_HEAD
+    hdb-id: "6742"
+    custom-model-data: 0
+    price: 2200
+    duration-days: 30
+    description:
+      - "&8✦ &7Lata po ciemnej stronie wysp."
+      - "&7Nie odstępuje Cię nawet nocą."
+      - "&e✦ Bonus: Widzenie w ciemności I"
+    effects: ["NIGHT_VISION:0"]
