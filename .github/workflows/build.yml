@@ -4,9 +4,6 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-
-jobs:
-  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,5 +12,3 @@ jobs:
           distribution: temurin
           java-version: '21'
       - name: Build
-        run: mvn -B package
-
