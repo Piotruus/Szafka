@@ -1,4 +1,4 @@
-```yaml
+yaml
 name: Build plugin
 
 jobs:
@@ -12,4 +12,4 @@ jobs:
           java-version: '21'
       - name: Build
         run: mvn -B package
-```
+
