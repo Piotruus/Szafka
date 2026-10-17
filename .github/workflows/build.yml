@@ -1,7 +1,7 @@
 ```yaml
 name: Build plugin
 
-on:
+'on':
   push:
   pull_request:
   workflow_dispatch:
@@ -9,18 +9,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Pobierz kod
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Ustaw Java 21
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '21'
           cache: maven
 
-      - name: Buduj plugin
+      - name: Build
         run: mvn -B package
 ```
