@@ -1,5 +1,9 @@
-yaml
 name: Build plugin
+
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
 
 jobs:
   build:
